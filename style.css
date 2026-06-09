@@ -1,73 +1,232 @@
-.timeline-card{
-    background:white;
-    border-radius:16px;
-    padding:30px;
-    box-shadow:0 2px 12px rgba(0,0,0,0.08);
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.timeline-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin-bottom:30px;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Prosenjit Majumder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-.timeline-header h2{
-    margin:0;
-    font-size:2rem;
-    color:#111827;
-}
+<body>
 
-.timeline-header a{
-    text-decoration:none;
-    color:#2563eb;
-    font-weight:600;
-}
+    <!-- Navigation -->
 
-.timeline{
-    position:relative;
-    padding-left:30px;
-}
+    <div class="nav">
+        <b>Dr. Prosenjit Majumder</b>
 
-.timeline::before{
-    content:"";
-    position:absolute;
-    left:0;
-    top:0;
-    width:2px;
-    height:100%;
-    background:#dbe3f0;
-}
+        <div>
+            <a href="index.html">Home</a>
+            <a href="research.html">Research</a>
+            <a href="publications.html">Publications</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
 
-.timeline-item{
-    position:relative;
-    margin-bottom:28px;
-}
+    <!-- Main Container -->
 
-.timeline-item:last-child{
-    margin-bottom:0;
-}
+    <div class="container">
 
-.timeline-item::before{
-    content:"";
-    position:absolute;
-    left:-35px;
-    top:10px;
-    width:10px;
-    height:10px;
-    border-radius:50%;
-    background:#2563eb;
-}
+        <!-- Hero Section -->
 
-.timeline-content h3{
-    margin:0;
-    font-size:1.2rem;
-    font-weight:700;
-    color:#111827;
-}
+        <div class="hero">
 
-.timeline-content p{
-    margin-top:6px;
-    font-size:1rem;
-    color:#64748b;
-}
+            <!-- Left Panel -->
+
+            <div>
+
+                <img src="Photo.jpeg" class="photo">
+
+                <h1>Dr. Prosenjit Majumder</h1>
+
+                <p class="subtitle">
+                    CNRS Postdoctoral Researcher
+                </p>
+
+                <p>
+                    Time & Frequency Department<br>
+                    FEMTO-ST Institute<br>
+                    Besançon, France
+                </p>
+
+                <div class="social-links">
+
+                    <a href="https://scholar.google.co.uk/citations?user=O1iQSWoAAAAJ&hl=fr"
+                        target="_blank">
+                        Google Scholar
+                    </a>
+
+                    <br><br>
+
+                    <a href="https://www.linkedin.com/in/prosenjit-majumder-ph-d-35a0093b/"
+                        target="_blank">
+                        LinkedIn
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- About Me Card -->
+
+            <div class="card">
+
+                <h2>About Me</h2>
+
+                <p>
+                    I am a CNRS Postdoctoral Researcher at the FEMTO-ST Institute,
+                    Besançon, France. My research focuses on optical atomic clocks,
+                    precision spectroscopy, structured matter waves, twisted electron
+                    and ion beams, quantum optics, and optical metrology.
+                </p>
+
+                <p>
+                    Previously, I worked at Tampere University (Finland),
+                    Durham University (United Kingdom),
+                    IIT Delhi (India), and LENS Florence (Italy).
+                </p>
+
+                <p>
+                    My research interests span quantum optics,
+                    atomic and molecular physics, Rydberg excitation,
+                    optical frequency references, laser stabilization,
+                    and structured quantum matter waves.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Second Row -->
+
+        <div class="grid">
+
+            <!-- Research Interests -->
+
+            <div class="card">
+
+                <h2>Research Interests</h2>
+
+                <ul>
+
+                    <li>Optical Atomic Clocks</li>
+
+                    <li>Structured Matter Waves</li>
+
+                    <li>Twisted Electron & Ion Beams</li>
+
+                    <li>Quantum Optics</li>
+
+                    <li>Atomic Spectroscopy</li>
+
+                    <li>Laser Stabilization</li>
+
+                    <li>Rydberg Physics</li>
+
+                    <li>Optical Metrology</li>
+
+                </ul>
+
+            </div>
+
+            <!-- Academic Journey -->
+
+            <div class="timeline-card">
+
+                <div class="timeline-header">
+
+                    <h2>Academic Journey</h2>
+
+                    <a href="cv.html">View All →</a>
+
+                </div>
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-content">
+
+                            <h3>CNRS Postdoctoral Researcher</h3>
+
+                            <p>
+                                FEMTO-ST Institute, France<br>
+                                Jan 2026 – Present
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-content">
+
+                            <h3>Postdoctoral Research Fellow</h3>
+
+                            <p>
+                                Tampere University, Finland<br>
+                                Jan 2023 – Dec 2025
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-content">
+
+                            <h3>Senior Project Scientist</h3>
+
+                            <p>
+                                IIT Delhi, India<br>
+                                2021 – 2022
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-content">
+
+                            <h3>Postdoctoral Research Assistant</h3>
+
+                            <p>
+                                LENS Florence, Italy<br>
+                                2020 – 2021
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-content">
+
+                            <h3>PhD in Physics</h3>
+
+                            <p>
+                                Durham University, UK<br>
+                                2015 – 2021
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
